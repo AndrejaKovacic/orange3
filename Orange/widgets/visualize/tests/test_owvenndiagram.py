@@ -278,6 +278,11 @@ class TestVennUtilities(unittest.TestCase):
         copied = copy_descriptor(var, "cux")
         self.assertEqual(copied.name, "cux")
 
+<<<<<<< HEAD
 
 if __name__ == "__main__":
     unittest.main()
+=======
+if __name__ == "__main__":
+    unittest.main()
+>>>>>>> Implement venn over columns, simplify over rows.
